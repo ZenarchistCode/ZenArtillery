@@ -1,0 +1,40 @@
+{
+    "ConfigVersion": "1",
+    "Player_Kill": 0,
+    "Player_BreakLegs": 1,
+    "Player_CauseBleeds": 1,
+    "Player_ExtraDamage": 0.0,
+    "SafeUnderRoof": 1,
+    "Zombie_Kill": 1,
+    "Animal_Kill": 1,
+    "MinStrikeSecs": 10,
+    "MaxStrikeSecs": 20,
+    "MinBombSecs": 15,
+    "MaxBombSecs": 30,
+    "MinBombs": 9,
+    "MaxBombs": 12,
+    "BombDropRadius": 30,
+    "BombDamageRadius": 30,
+    "ChemStrikeDoesDamage": 1,
+    "CarMinDamage": 100,
+    "CarMaxDamage": 250,
+    "DamageCarParts": [
+        "Chassis",
+        "Engine",
+        "FuelTank",
+        "Reflector_1_1",
+        "Reflector_2_1",
+        "CarRadiator",
+        "SparkPlug",
+        "Wheel",
+        "Trunk",
+        "Door",
+        "Hood"
+    ],
+    "DamageObjects": [
+        {
+            "Type": "example_object_classname",
+            "Damage": 1000
+        }
+    ]
+}
